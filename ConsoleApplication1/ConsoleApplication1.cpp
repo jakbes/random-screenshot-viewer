@@ -4,8 +4,6 @@
 #include <stdlib.h>
 #include <time.h>  
 using namespace std;
-char neco;
-string neco2;
 string a1[10] = { "0", "1","2","3","4","5", "6", "7","8", "9" };
 string a2[30] = { "a", "b", "c", "d", "e", "f", "g","h", "i", "j", "k", "l", "m", "n","o", "p", "q", "r", "s", "t", "u","v", "w", "x", "y", "z" };
 //No need to comment, i think you are smart enought to figure out what it does
