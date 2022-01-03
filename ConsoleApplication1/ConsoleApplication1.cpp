@@ -17,7 +17,7 @@ void screenshot() {
 	string h23= a1[rand() % 31];
 	string cast1 = "https://prnt.sc/";
 	string cast2 = h1 + h12 + h2 + h21 + h22+ h23;
-	string dwnld_URL = "https://prnt.sc/" + cast2;
+	string dwnld_URL = cast1 + cast2;
 	ShellExecuteA(NULL, "open", dwnld_URL.c_str(), NULL, NULL, SW_SHOWNORMAL);
 }
 
